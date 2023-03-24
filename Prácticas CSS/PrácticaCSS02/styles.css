@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Black+Ops+One&family=Chewy&family=Gloria+Hallelujah&family=Kalam&family=Oleo+Script:wght@400;700&family=Rye&family=Yellowtail&display=swap');
+
+body {
+    background-color: rgb(247, 218, 179);
+}
+h1 {
+    color: crimson;
+    font-family:'Black Ops One', cursive;
+    font-size: 40px;
+    text-align: center;
+    text-decoration-line: underline;
+
+}
+
+.imagen01 {
+    text-align:center;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family:'Rye', cursive; 
+    background-color: rgb(211, 204, 197);
+    text-decoration-line: initial;
+}
+
+.foto {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.pics {
+    background-color: rgba(245, 231, 215, 0.952);
+}
+
+.nav a {
+    color:rgb(207, 140, 114);
+    
+}
+.parte1  {
+    background-color:rgb(46, 43, 42);
+    
+}
+.parte1 :hover {
+    color:whitesmoke;
+}
+
+.inicio {
+    background-color: darkgrey;
+    font-family:'Rye', cursive;
+    
+}
+
+.listado {
+    background-color: paleturquoise;
+}
+
+.tesla ul {
+    color: rgb(186, 124, 223);
+    font-family:'Arizonia', cursive;
+}
+
+
+.tesla strong {
+    color: rgb(233, 5, 146);
+    font-family:'Oleo Script', cursive;
+}
+
+.tesla li:first-child {
+    color: black;
+
+}
+.audi ul {
+    color: rgb(247, 139, 100);
+    font-family:'Chewy', cursive;
+}
+
+.audi li:nth-child(odd) {
+    color:chocolate;
+}
+.audi strong {
+    color: rgb(102, 44, 3);
+    font-family:'Oleo Script', cursive;
+}
+.bmw strong {
+    color: rgb(37, 6, 37);
+    font-family:'Oleo Script', cursive;
+}
+.bmw ul {
+    color:rgb(173, 15, 121);
+    font-family:'Yellowtail', cursive;
+}
+
+.marca01 {
+    font-family:'Rye', cursive;
+}
+.marca02 {
+    font-family:'Rowdies', cursive; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Black+Ops+One&family=Chewy&family=Oleo+Script:wght@400;700&family=Rowdies:wght@300&family=Rye&family=Yellowtail&display=swap');
+
+.marca03 {
+    font-family: 'Chewy', cursive;
+}
+
+#formulario {
+    background-color:rgb(241, 184, 193);
+}
+
+.fin {
+    background-color:rgb(207, 210, 212);
+    font-family: 'Black Ops One', cursive;
+}
+
+button:hover {
+    background-color: tomato;
+}
+button:active {
+    color: cornsilk;
+}

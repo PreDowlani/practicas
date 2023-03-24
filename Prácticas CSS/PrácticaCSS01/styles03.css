@@ -1,0 +1,46 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: crimson;
+    font: size 40px;;
+    text-align: center;
+    text-decoration-line: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+}
+
+h2 {
+    color: brown;
+    font-size: 30px;
+    font-style: oblique;
+    text-align:left;
+    
+    
+}
+
+h4 {
+    color: rgb(137, 46, 11);
+    font-size: 35px;
+    text-align:justify;
+    text-decoration-line: line-through;
+}
+
+h3 {
+    text-decoration-line: underline;
+    color: rgb(100, 74, 7);
+}
+
+.antecend {
+    font-family: cursive;
+    text-align: justify;
+    text-decoration-line: overline;
+}
+
+#ante {
+    color: rgb(142, 31, 23);
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

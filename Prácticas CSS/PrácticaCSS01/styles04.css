@@ -1,0 +1,62 @@
+body {
+    background-color: rgba(217, 239, 241, 0.986);
+}
+
+
+h1 {
+    color: rgba(8, 8, 172, 0.719 );
+    text-align: center;
+    text-decoration-line: underline;
+    font-family:serif;
+    font-size:50px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+
+h3 {
+    color: rgb(46, 75, 128);
+    background-color: aliceblue;
+    font-family: monospace;
+    text-decoration-line:overline;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+
+  .titulo {
+    font-family: 'Pacifico', cursive;;
+    color:rgb(173, 34, 34);
+    text-decoration-line: underline;
+    
+  }
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&family=Pacifico&family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+
+  .nombre {
+    font-family: 'Indie Flower', cursive;
+    color: crimson;
+    
+  }
+
+  .apellido {
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .animal {
+    color: rgb(167, 140, 32);
+    font-family: monospace
+    ;
+  }
+
+  .cuidad {
+    color: rgba(17, 187, 130, 0.664);
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  tbody {
+    background-color: azure;
+  }
+
+  

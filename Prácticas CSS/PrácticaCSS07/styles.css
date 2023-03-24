@@ -1,0 +1,223 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.logo {
+    background-color:black;
+    height: 55px;
+    display: flex;
+}
+
+.emirates {
+    background-image: url(https://thumbs.dreamstime.com/z/emirates-logo-editorial-ilustrativo-sobre-fondo-blanco-icono-vectorial-logotipos-iconos-conjunto-redes-sociales-banner-plano-210442599.jpg);
+    width: 60px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+}
+
+.adidas {
+    background-image: url(https://thumbs.dreamstime.com/b/vilnius-lituania-de-septiembre-logo-adidas-en-una-tienda-ag-es-empresa-alemana-que-dise%C3%B1a-y-157983951.jpg);
+    width: 80px;
+    background-size: cover;
+    
+}
+
+.real {
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png);
+    width: 38px;
+    background-size: contain;
+    height: 50px;
+    margin-left: 35%;
+}
+
+.hasta {
+    color: white;
+    margin-left: 30%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+header {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/madrid/estadio-bernabeu-vista-aerea-c-turismo-madrid.jpg);
+    background-size: cover;
+}
+
+.titulo h1 {
+    font-size: large;
+    font-size: 50px;
+}
+
+.titulo h1:hover {
+    color: #ffdc75;
+    transform:scale(1.3);
+}
+
+
+.nave {
+    background-color: #e6f0f5;
+    padding: 10px;
+    list-style-type: none;
+    
+}
+
+
+.nave li {
+    display: inline;
+    margin: 20px;
+}
+
+.nave li a{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nave li a:hover {
+    background-color: #5281b1;
+    color: #ffdc75;
+    padding: 10px;
+}
+
+.historia {
+    background-color: #bac0c1;
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.history {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+h1 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Black Ops One', cursive;
+}
+
+p {
+    font-size: 18px;
+}
+
+.aside {
+    background-color: #5281b1;
+    flex-basis: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.plantilla li {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.plantilla li:hover {
+    background-color: white;
+}
+
+.campo {
+    background-color:#ffdc75;
+    display: flex;
+    height: 1000px;
+    justify-content: center;
+}
+
+.santiago {
+    margin: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.imagen2 {
+    background-image: url(https://media.cntraveler.com/photos/5e66a338b93f0800081a6f28/16:9/w_2560,c_limit/santiago-bernabe%CC%81u-stadium-madrid-2020-GettyImages-1194733745.jpg);
+    border: 3px solid;
+    background-size: cover;
+    background-position: bottom;
+    width: 550px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.imagen2:hover {
+    transform: scale(1.3);
+}
+
+.imagen3 {
+    background-image: url(https://s03.s3c.es/imag/_v0/1200x655/f/7/8/nuevo-bernabeu.jpg);
+    border: 3px solid;
+    background-size: cover;
+    width: 550px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.imagen3:hover {
+    transform: scale(1.3);
+}
+
+button a{
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+}
+
+
+footer {
+    background-color:#e6f0f5;
+    height: 80px;
+    font-size: 18px;
+    font-family: 'Kaushan Script', cursive;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.contact:hover {
+    background-color: #5281b1;
+    padding: 10px;
+}
+
+.contact a:hover {
+    color: #ffdc75;
+}
+
+.email:hover {
+    background-color: #5281b1;
+    padding: 10px;
+}
+
+.email a:hover {
+    color: #ffdc75;
+}
+
+button:hover {
+    border-radius: 50%;
+    background-color: #5281b1;
+}
+
+button a:hover {
+    color: white;
+}
+
+.contacto {
+    padding: 10px;
+}

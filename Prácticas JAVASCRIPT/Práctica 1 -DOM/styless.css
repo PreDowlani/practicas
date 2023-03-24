@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+
+.estiloP {
+    font-family:cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nuevo-p {
+    font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
+}

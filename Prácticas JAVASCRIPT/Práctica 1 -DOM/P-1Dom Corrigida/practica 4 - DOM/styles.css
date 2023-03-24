@@ -1,0 +1,20 @@
+p.nuevaclass {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar li a {
+  text-decoration: none;
+  padding: 0 0.3rem;
+}

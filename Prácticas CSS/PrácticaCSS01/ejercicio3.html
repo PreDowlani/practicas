@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles03.css" />
+    <title>Práctica CSS03</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Formulario Personal</h1>
+      <section>
+        <h2>Datos Personales</h2>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="" required />
+        <br />
+        <label for="apellido">Apellidos</label>
+        <input type="text" name="apellido" id="" required />
+        <br />
+        <label for="edad">Edad</label>
+        <input type="text" name="edad" id="" required />
+        <br />
+        <label for="nacimiento">Fecha de Nacimiento</label>
+        <input type="date" name="year" id="year" />
+        <br />
+        <label for="dirrecion">Dirreción</label>
+        <input type="text" name="dirrecion" id="" />
+        <br />
+        <label for="hijos">¿Tiene Hijos?</label>
+        <label for="si">Sí</label>
+        <input type="radio" name="si" id="" />
+        <label for="no">No</label>
+        <input type="radio" name="si" id="" />
+      </section>
+      <hr />
+
+      <section>
+        <h3>ANTECEDENTES ACADEMICOS Y PROFESIONALES</h3>
+        <label for="titulo">Título/Profesión</label>
+        <input type="text" name="" id="" required />
+        <br />
+        <label for="estuidos">Nivel Académico</label>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="nivel de estudio más alto"
+        />
+        <br />
+        <label for="centro">Centro de Eneseñanza</label>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="nombre del centro"
+          required
+        />
+      </section>
+      <div>
+        <hr />
+
+        <h4 class="antecend">Antecendentes Penales</h4>
+      </div>
+      <div id="ante">
+        <label for="penal"> <strong>¿Antecedentes?</strong></label>
+      </div>
+
+      <div>
+        <label for="si">Sí</label>
+        <input type="radio" name="si" id="" />
+        <label for="no">No</label>
+        <input type="radio" name="si" id="" />
+      </div>
+    </form>
+    <hr />
+    <br />
+    <div>
+      <button type="submit">Enviar</button>
+    </div>
+  </body>
+</html>
